@@ -16,7 +16,9 @@ This project is a small code that uses NSPasteboard to work with the global find
 // Get the find string from the global find buffer.
 let findPBoard = NSPasteboard(name: .find)
 let findString = findPBoard.string(forType: .string)
+```
 
+```swift
 // Set the find string to the global find buffer.
 let findString = "hello"
 let findPBoard = NSPasteboard(name: .find)
