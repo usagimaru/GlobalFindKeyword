@@ -3,6 +3,8 @@ A demonstration of the global find buffer on macOS app.
 
 <img src="./screenshot.jpg" width=676>
 
+https://github.com/user-attachments/assets/d316b2f1-93e9-4639-a356-1d043c12fc81
+
 The find string sharing feature is not well known on the macOS platform today. Familiar examples include the search fields in Xcode and Safari. Some users see it as a bug, but it’s an intentionally designed feature that has existed since older Mac OS X (or NeXTSTEP).
 
 This project is a small code that uses NSPasteboard to work with the global find buffer on macOS. This provides a traditional find experience.
